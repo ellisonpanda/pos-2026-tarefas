@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz versao="1">
+    <disciplina>Programação</disciplina>
+
+    <professor>
+        <nome>Neymar</nome>
+        <matrícula>01234567899876</matrícula>
+    </professor>
+
+    <turma>InfoWeb</turma>
+    <data>17/07/2024</data>
+
+    <questões>
+
+        <questão>
+            <enunciado>Qual linguagem é usada para estruturar páginas web?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">HTML</alternativa>
+                <alternativa correta="nao">Python</alternativa>
+                <alternativa correta="nao">Java</alternativa>
+                <alternativa correta="nao">C++</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual linguagem é usada para estilizar páginas web?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">HTML</alternativa>
+                <alternativa correta="sim">CSS</alternativa>
+                <alternativa correta="nao">Python</alternativa>
+                <alternativa correta="nao">SQL</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual linguagem é muito usada para interatividade em páginas web?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">PHP</alternativa>
+                <alternativa correta="sim">JavaScript</alternativa>
+                <alternativa correta="nao">C</alternativa>
+                <alternativa correta="nao">Java</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual símbolo é usado para comentário em JavaScript de uma linha?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">//</alternativa>
+                <alternativa correta="nao">#</alternativa>
+                <alternativa correta="nao">--</alternativa>
+                <alternativa correta="nao">**</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual estrutura é usada para repetir código várias vezes?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">if</alternativa>
+                <alternativa correta="sim">for</alternativa>
+                <alternativa correta="nao">switch</alternativa>
+                <alternativa correta="nao">case</alternativa>
+            </alternativas>
+        </questão>
+
+    </questões>
+</quiz>
