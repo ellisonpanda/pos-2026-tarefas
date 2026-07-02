@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Cliente SUAP
+{% endblock %}
+
+{% block content %}
+
+<nav class="navbar navbar-dark bg-success shadow">
+
+    <div class="container">
+
+        <span class="navbar-brand fw-bold">
+
+            Cliente SUAP
+
+        </span>
+
+    </div>
+
+</nav>
+
+<section class="container py-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-lg-6">
+
+            <h1 class="display-4 fw-bold">
+
+                Bem-vindo ao Cliente SUAP
+
+            </h1>
+
+            <p class="lead">
+
+                Consulte seu perfil acadêmico e visualize seu boletim de forma rápida utilizando autenticação OAuth do SUAP.
+
+            </p>
+
+            <a href="/login" class="btn btn-success btn-lg">
+
+                Entrar com SUAP
+
+            </a>
+
+        </div>
+
+        <div class="col-lg-6 text-center">
+
+            <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+            class="img-fluid"
+            width="350">
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
